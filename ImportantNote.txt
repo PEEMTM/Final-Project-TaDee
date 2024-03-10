@@ -1,0 +1,25 @@
+#install Prerequisite
+
+    pip install ultralytics
+    pip uninstall torch torchvision
+    pip install torch torchvision -f https://download.pytorch.org/whl/torch_stable.html
+
+#For export to tflite install
+
+    https://visualstudio.microsoft.com/visual-cpp-build-tools/             :check on C++
+    pip install onnx onnx2tf sng4onnx onnxsim onnx_graphsurgeon tflite_support onnxruntime
+
+#Create a Virtual Environment if needed
+
+    python -m venv myenv
+    myenv\Scripts\activate
+    pip install python==3.10.0
+    
+    #Verify Installation 
+        python --version
+
+    #Deactivate the Current Virtual Environment
+        deactivate
+    #Delete the Existing Virtual Environment
+        rmdir /s myenv
+

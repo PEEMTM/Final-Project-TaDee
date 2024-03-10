@@ -1,0 +1,39 @@
+description: Ultralytics best model trained on D:\TaDee\Dataset\TaDee Dectection.v2i.yolov8\data.yaml
+author: Ultralytics
+date: '2024-03-10T14:34:47.155240'
+version: 8.1.25
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: 30 year building
+  1: Bin
+  2: Car
+  3: Chair
+  4: Chamnir Shop
+  5: Cmubus
+  6: Engineering club room
+  7: Engineering libraries
+  8: Fence
+  9: Khaw man ki
+  10: Lukchin sangkhom
+  11: Mala Thai Food
+  12: Motorcycle
+  13: Noodle shop
+  14: Pillar
+  15: Ruamjai Engineering Field
+  16: Rugby field parking lot
+  17: Stair
+  18: Table
+  19: Traffic barrier
+  20: Vishnu yard
+  21: cat
+  22: cone
+  23: crosswalk
+  24: dog
+  25: person
