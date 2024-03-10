@@ -1,2 +1,2 @@
 # Final-Project-TaDee
-Train Script
+Train Model Script
